@@ -1,0 +1,32 @@
+@import url("//fonts.googleapis.com/css?family=Josefin+Slab:400,700");
+body {
+  font-family: "Josefin Slab", "Myriad Pro", Arial, sans-serif;
+  width: 90%;
+  margin: 0 auto;
+  background-color: rgb(2, 25, 102);
+}
+
+.card-group {
+  color: #fff;
+}
+
+.staff {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.card article img {
+  width: 300px;
+  height: 200px;
+  margin-top: 20px;
+  border-radius: 35px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1px;
+  color: #fff;
+}
