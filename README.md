@@ -1,3 +1,4 @@
 # fysioterapaut
 
-Assads, omOSS_Skisse v2.1  ![image](https://user-images.githubusercontent.com/103030864/171625275-cb9d8191-4b9f-4f9a-8611-8899711ca826.png)
+Assads, omOSS_Skisse v3.1  ![bilde](https://user-images.githubusercontent.com/103030864/172828174-7fa82590-8fc8-420e-a3bf-98f6f123388a.png)
+
