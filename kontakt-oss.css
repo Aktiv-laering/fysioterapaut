@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+}
+
+.container__left {
+  width: 50vw;
+}
+.container__right {
+  width: 50vw;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 60px;
+}
+h3 {
+  font-size: 40px;
+  margin: 100px;
+  color: green;
+}
+
+form {
+  margin: 50px;
+}
+body {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0),
+    rgba(2, 35, 102, 1)
+  );
+}
