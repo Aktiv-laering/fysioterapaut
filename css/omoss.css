@@ -76,7 +76,7 @@ body {
 }
 
 .omoss-img-text {
-  background-image: url(./img/omOssMsg.jpg);
+  background-image: url(/img/omOssMsg.jpg);
   height: 350px;
   width: 89%;
   padding-left: 15px;
