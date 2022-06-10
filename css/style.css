@@ -16,7 +16,7 @@ body{
   position: relative;
   width: 100%;
   min-height: 100vh;
-  background: url(../images/bg.jpg) no-repeat;
+  background: url(../img/temporaryHomeBG.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -26,7 +26,7 @@ body{
 }
 
 .section-main h1{
-  color: #022366;
+  color: #fff;
   font-size: 40px;
   font-weight: 800;
   text-transform: uppercase;
@@ -50,6 +50,7 @@ header{
 header.sticky{
   background: #fff;
   padding: 15px 100px;
+  color: #fff;
 }
 
 header .brand{
@@ -68,7 +69,7 @@ header .menu{
   align-items: center;
 }
 
-header .menu a{
+header .menu li{
   color: #022366;
   font-size: 24px;
   font-weight: 100;
@@ -78,6 +79,8 @@ header .menu a{
   border-radius: 20px;
   transition: 0.3s;
   transition-property: color, background;
+  list-style-type: none; /* Remove bullets */
+  display: inline;
 }
 
 header .menu a:hover{
@@ -132,6 +135,7 @@ header .btn{
 
   header .menu.active{
     right: 0;
+    color: red;
   }
 
   header .menu .close-btn{
@@ -146,6 +150,7 @@ header .btn{
     font-size: 20px;
     margin: 20px;
     padding: 0 15px;
+    color: #fff;
   }
 }
 
