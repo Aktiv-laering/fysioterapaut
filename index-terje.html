@@ -10,7 +10,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
   <body>
-
     <header>
       <a href="#" class="brand">Weber Johannesen Fysioterapi</a>
       <div class="menu">
@@ -67,13 +66,23 @@
       menu.classList.remove('active');
     });
     </script>
+    
     <script>
       function makeActive() {
-               var element = document.getElementById("navmenu");
-               element.classList.add("active");
-               element.innerHTML="Denne er ative";
-            }
-</script>
+        var element = document.getElementById("navmenu");
+          element.classList.remove('active');
+          element.classList.add("active");
+          element.innerHTML="Denne er aktiv";
+        };
+    </script>
+
+
+    <script>
+          document.getElementById("navmenu").addEventListener("click",
+            function() {
+            alert("varsling menyklikk!");
+        });
+    </script>
   </body>
 </html>
       
