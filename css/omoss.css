@@ -76,7 +76,7 @@ body {
 }
 
 .omoss-img-text {
-  background-image: url(/img/omOssMsg.jpg);
+  background-image: url(/fysioterapaut/img/omOssMsg.jpg);
   height: 350px;
   width: 89%;
   padding-left: 15px;
@@ -136,7 +136,7 @@ body {
   border-radius: 15px;
   /* border-radius: 50%; */
 }
-.staff-tilte h2 {
+.staff-tilte h1 {
   /* background-color: #196071; */
   /* color: #9ccecb; */
   color: lightgray;
