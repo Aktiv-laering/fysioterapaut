@@ -2,11 +2,11 @@
 
 
 i mappen www
-index  preview ![bilde](https://user-images.githubusercontent.com/103030864/173571012-4baaae46-caa5-4219-b010-5eeda7ed8642.png)
+index  preview ![bilde](https://user-images.githubusercontent.com/103030864/173577459-17194fd2-a4b2-4470-b32e-4e660bf5d2cd.png)
 
-tjenester  preview  ![bilde](https://user-images.githubusercontent.com/103030864/173571110-6c2c6899-7b9f-4534-9d0c-97b8f320199d.png)
+tjenester  preview  ![bilde](https://user-images.githubusercontent.com/103030864/173577553-7a104b20-3f30-42a4-82fa-58ead33e95cb.png)
 
-omOSS preview ![bilde](https://user-images.githubusercontent.com/103030864/173571286-71a6c383-0eae-4503-b5a3-893703c785ff.png)
+omOSS preview ![bilde](https://user-images.githubusercontent.com/103030864/173577672-252601d0-854b-476c-9ab8-120258556d01.png)
 
 kontakt preview  ![bilde](https://user-images.githubusercontent.com/103030864/173571188-573d2622-6d35-4b82-a030-1f323220e509.png)
 
