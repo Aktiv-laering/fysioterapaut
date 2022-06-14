@@ -1,5 +1,7 @@
 // forEach fra webdefine opg. -> for-loop
 // siden etterhvert skal ha en "hvis active = true"-funksjon etterhvert så ville heller brukt en for-loop istedenfor en forEach
+
+// omOssArray med staffData starts
 const omossArray = {
   employes: [
     {
@@ -9,7 +11,7 @@ const omossArray = {
       name: "Tom Andre Weber",
       title: "Fysioterapeut MSc og Manuellterapeut",
       tlf: "414 26 858",
-      email: "tom@weberfysioterapi.no",
+      email: "tom@wjfysio.no",
       active: true,
     },
     {
@@ -19,48 +21,51 @@ const omossArray = {
       name: "Hanna Cortsen",
       title: "Osteopat D.O MNOF",
       tlf: "980 19 630",
-      email: "hanna@weberfysioterapi.no",
+      email: "hanna@wjfysio.no",
       active: true,
     },
     {
       id: 3,
-      pictureUrl: "./img/nyEmplAvatar.jpg",
+      pictureUrl: "./img/thereseBG.png",
       imageAlt: "Terapeut-Therese",
       name: "Therese Johannesen",
-      title: "TBA",
+      title: "Fysioterapeut",
       tlf: "999 77 666",
-      email: "therese@weberfysioterapi.no",
+      email: "therese@wjfysio.no",
       active: true,
     },
     {
       id: 4,
-      pictureUrl: "./img/nyEmplAvatar.jpg",
+      pictureUrl: "./img/nyEmplAvatarBG.png",
       imageAlt: "Terapeut-ny",
       name: "Terapeut-navn",
-      title: "TBA",
+      title: "TBA - skal være synelig?",
       tlf: "999 77 666",
-      email: "nyEmplyee@weberfysioterapi.no",
+      email: "nyEmplyee@wjfysio.no",
       active: false,
-      //   make if to hide inaktive object or comment out
+      //   set if in-aktive to hide object or just comment out?
     },
   ],
 };
 
 // ønsker , legge til bilder, om klinikken info
 
+
+// ref til classen og funskj starts
+
 const employes = omossArray.employes;
 console.log(employes);
-const omossCards = document.querySelector(".card");
+const omossCards = document.querySelector(".staff-card-jS");
 
 function employesObjects() {
   omossCards.innerHTML = ``;
   for (let i = 0; i < employes.length; i++) {
     omossCards.innerHTML += `
-    <article>
-      <div>
-      <img src="${employes[i].pictureUrl}" alt="${employes[i].imageAlt}">
+    <article class="staff-card_img_txt_flex">
+      <div >
+      <a href="#"><img src="${employes[i].pictureUrl}" alt="${employes[i].imageAlt}"></a>
       </div>
-      <div>
+      <div >
       <h3> ${employes[i].name}</h3>
       <p> ${employes[i].title}</p>
       <p>Tlf: ${employes[i].tlf}</p>
