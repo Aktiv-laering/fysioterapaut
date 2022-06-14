@@ -1,7 +1,7 @@
 .: forlag til todo, sjekk list :.
 
 
-landpage: head, logo, nav, hero, footer
+landpage: head, logo, nav, hero, footer:
 
 
 
@@ -9,20 +9,26 @@ landpage: head, logo, nav, hero, footer
 tjenester:
 
 
-om:
+
+
+omOss siden oppdateringer/mangler: 
+oppdatere hero section text
+staff-card-JS, penere bg og helrund bilder og justere spacing
 
 
 
 bestill:
 
 
-kontakt:
+
+kontaktOss:
 
 
 
 
 
 jS:
+OmOssJS oppdatert av Egil + Terje og litt av Assad :)
 
 
 
@@ -42,3 +48,4 @@ sortfarge: #000000
 
 
 Img:
+finnes mer nyere og bedre bilder?
