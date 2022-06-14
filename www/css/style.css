@@ -131,3 +131,52 @@ nav {
     width: 200px;
     height: 200px;
 }
+
+/* style for om oss */
+
+* staff-card via jS starts */
+
+.staff-tilte {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  /* color: #fff; */
+}
+.staff-card-jS {
+  display: flex;
+  /* flex-direction: column; dersom row/column */
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1px;
+  text-align: center;
+  /* color: #ffff; */
+  color: lightgray;
+  /* color: #196071; */
+  /* font-size: 19px; */
+  /* color: #fff; */
+}
+.staff-card_img_txt_flex {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.staff-card-jS h3 {
+  font-size: 24px;
+  /* color: red; */
+}
+.staff-card-jS article img {
+  width: 300px;
+  height: 200px;
+  margin-top: 20px;
+  border-radius: 15px;
+  /* border-radius: 50%; */
+}
+.staff-tilte h1 {
+  /* background-color: #196071; */
+  /* color: #9ccecb; */
+  color: lightgray;
+  font-size: 40px;
+  font-weight: bold;
+  /* background-color: #6c933a;
+  color: #2574ba; */
+}
