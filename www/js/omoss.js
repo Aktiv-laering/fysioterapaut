@@ -61,18 +61,15 @@ function employesObjects() {
   omossCards.innerHTML = ``;
   for (let i = 0; i < employes.length; i++) {
     omossCards.innerHTML += `
-    <article class="staff-card_img_txt_flex">
-      <div >
-      <a href="#"><img src="${employes[i].pictureUrl}" alt="${employes[i].imageAlt}"></a>
-      </div>
-      <div >
-      <h3> ${employes[i].name}</h3>
-      <p> ${employes[i].title}</p>
+
+    <div class="herosection-content__flex">
+      <img src="${employes[i].pictureUrl}" alt="${employes[i].imageAlt}">
+      <h2>${employes[i].name}</h2>
+      <p>${employes[i].title}</p>
       <p>Tlf: ${employes[i].tlf}</p>
-      <p> ${employes[i].email}</p>
-      </div>
-    </article>
-  `;
+      <p>${employes[i].email}</p>
+    </div>
+    `;
   }
 }
 
