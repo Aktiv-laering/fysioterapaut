@@ -16,7 +16,7 @@ const omossArray = {
     },
     {
       id: 2,
-      pictureUrl: "./imgimg/Hanna-1-scaled-300x300.jpg",
+      pictureUrl: "./img/Hanna-1-scaled-300x300.jpg",
       imageAlt: "Terapeut-Hanna",
       name: "Hanna Cortsen",
       title: "Osteopat D.O MNOF",
