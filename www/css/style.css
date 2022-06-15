@@ -134,12 +134,16 @@ nav {
 
 /* kontakt oss */
 
+form.melding {
+}
+
 input[type=text], input[type=email],  textarea#message {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
   }
+
 textarea#message {
     height: 100px;
     }
