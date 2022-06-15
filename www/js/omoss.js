@@ -62,12 +62,12 @@ function employesObjects() {
   for (let i = 0; i < employes.length; i++) {
     omossCards.innerHTML += `
 
-    <div class="herosection-content__flex">
+    <div class="herosection-content__flex"> <br><br>
       <img src="${employes[i].pictureUrl}" alt="${employes[i].imageAlt}">
       <h2>${employes[i].name}</h2>
       <p>${employes[i].title}</p>
       <p>Tlf: ${employes[i].tlf}</p>
-      <p>${employes[i].email}</p>
+      <p>${employes[i].email}</p> <br><br>
     </div>
     `;
   }

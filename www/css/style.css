@@ -125,9 +125,11 @@ nav {
 .herosection-content__flex {
     background-color: #084acd83;
     max-width: 250px;
+    /* lagt til <br><br> til jS koden for å få blå rammen over og under staff-card */
 }
 
 .herosection-content__flex img {
     width: 200px;
     height: 200px;
+    border-radius: 50%;
 }
