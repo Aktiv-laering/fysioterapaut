@@ -1,0 +1,147 @@
+:root {
+    --primary: #022366;
+}
+
+/* Globals */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+a:visited {
+    color: inherit;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.textdecoration-none {
+    text-decoration: none;
+}
+
+.d-flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.d-flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+/* Navigation */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    min-height: 60px;
+    align-items: center;
+    color: var(--primary);
+    border-bottom: 1px solid var(--primary);
+}
+
+.navigation-logo {
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.navigation-menu {
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+.navigation-menu ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.navigation-menu ul li {
+    border-bottom: 1px solid transparent;
+}
+
+.navigation-menu ul li:hover {
+    border-bottom: 1px solid var(--primary);
+}
+
+/* Herosection */
+
+.herosection {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto 30px;
+    margin-top: 30px;
+}
+
+.background-image {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), var(--primary)), url("../../img/temporaryHomeBG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.herosection-content {
+    gap: 20px;
+}
+
+.herosection-content__left {
+    width: 50%;
+}
+.herosection-content__right {
+    width: 50%;
+}
+
+.herosection-content img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.herosection-content__flex {
+    background-color: #084acd83;
+    max-width: 250px;
+    padding: 30px;
+}
+
+.herosection-content__flex img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+/* kontakt oss */
+
+input[type=text], input[type=email],  textarea#message {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+textarea#message {
+    height: 100px;
+    }
