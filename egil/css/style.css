@@ -100,7 +100,7 @@ nav {
 }
 
 .background-image {
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), var(--primary)), url("../../img/temporaryHomeBG.jpg");
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), var(--primary)), url("../img/temporaryHomeBG.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
