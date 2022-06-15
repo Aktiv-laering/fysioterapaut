@@ -41,14 +41,14 @@
 
                     <form class="melding"action="/action_page.php">
                         <P></P><label for="name">navn:</label>
-                            <input type="text" id="name" name="name" value="navn"><br>
+                            <input type="text" id="name" name="name" placeholder="navn" onfocus="this.value=''" ><br>
                         <label for="tel">telefon:</label>
-                            <input type="text" id="tel" name="tel" value="telefon"><br>
+                            <input type="text" id="tel" name="tel" placeholder="telefon" ><br>
                         <label for="email">e-post:</label>
                             <!-- OBS! Vlidering av e-postadresse -->    
-                            <input type="email" id="email" name="email" value="e-post"><br>
+                            <input type="email" id="email" name="email" placeholder="e-post"><br>
                         <label for="message">melding</label>
-                            <textarea name="message">skriv din melding her</textarea><br>
+                            <textarea id="message" placeholder="skriv din melding her"></textarea><br>
                         <input type="submit">
                     </form>                    
                 </div>
