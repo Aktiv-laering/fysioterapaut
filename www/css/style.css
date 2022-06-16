@@ -243,6 +243,11 @@ footer a {
     flex-direction: column-reverse;
     }
 
+    /* text-center__mobile for omOss */
+    .text-center__mobile {
+        text-align: center;
+    }
+
     .checkBtn {
         display: inline;
     }
