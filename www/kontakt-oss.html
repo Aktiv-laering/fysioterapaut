@@ -36,20 +36,20 @@
                     <p><i class="material-icons">local_post_office</i><a href="mailto:tom@wjfysio.no">tom@wjfysio.no</p></a>
                 </div>
                 <div class="herosection-content__right">
-                    <h3>Noe du lurer på?</h3>
-                    <p>Du er da hjertlig velkommen til å kontakte oss eller ved å besøke oss i våre lokaler.</p>
+                    <h2>Noe du lurer på?</h2>
+                    <p>Du er da hjertlig velkommen til å kontakte oss eller ved å besøke oss i våre lokaler.</p> <br>
 
                     <form class="melding" action="/action_page.php">
-                        <P></P><label for="name">navn:</label>
-                            <input type="text" id="name" name="name" placeholder="navn"><br>
-                        <label for="tel">telefon:</label>
-                            <input type="text" id="tel" name="tel" placeholder="telefon"><br>
-                        <label for="email">e-post:</label>
+                        <!-- <P></P><label for="name">navn:</label> -->
+                            <input type="text" id="name" name="name" required placeholder="Navn her"><br>
+                        <!-- <label for="tel">telefon:</label> -->
+                            <input type="text" id="tel" name="tel" required placeholder="Telefon her"><br>
+                        <!-- <label for="email">e-post:</label> -->
                             <!-- OBS! Vlidering av e-postadresse -->    
-                            <input type="email" id="email" name="email" placeholder="e-post"><br>
-                        <label for="message">melding</label>
-                            <textarea id="message" placeholder="skriv din melding her"></textarea><br>
-                        <input type="submit">
+                            <input type="email" id="email" name="email" placeholder="E-post her"><br>
+                        <!-- <label for="message">melding</label> -->
+                            <textarea id="message" placeholder="skriv din melding her"></textarea><br><br>
+                        <input type="submit" class="submitBtn text-white">
                     </form>                    
                 </div>
             </div>
