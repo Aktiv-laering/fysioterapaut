@@ -165,9 +165,12 @@ nav {
 }
 
 .herosection-content__flex {
-    background-color: #084acd83;
+    /* background-color: #084acd83; */
+    background-color: #12121212;
     max-width: 250px;
     padding: 30px;
+    border-top: 3px solid var(--primary);
+
 }
 
 .herosection-content__flex img {
