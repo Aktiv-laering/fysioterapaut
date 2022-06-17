@@ -39,23 +39,45 @@
                     <h2>Noe du lurer på?</h2>
                     <p>Du er da hjertlig velkommen til å kontakte oss eller ved å besøke oss i våre lokaler.</p> <br>
 
-                    <form class="melding" action="/action_page.php">
-                        <!-- <P></P><label for="name">navn:</label> -->
-                            <input type="text" id="name" name="name" required placeholder="Navn her"><br>
-                        <!-- <label for="tel">telefon:</label> -->
-                            <input type="text" id="tel" name="tel" required placeholder="Telefon her"><br>
-                        <!-- <label for="email">e-post:</label> -->
-                            <!-- OBS! Vlidering av e-postadresse -->    
-                            <input type="email" id="email" name="email" placeholder="E-post her"><br>
-                        <!-- <label for="message">melding</label> -->
-                            <textarea id="message" placeholder="skriv din melding her"></textarea><br><br>
-                        <input type="submit" class="submitBtn text-white">
+                    <form class="melding" >
+                        <input type="text" id="name" name="name" required placeholder="Navn her"><br>
+                        <input type="text" id="tel" name="tel" required placeholder="Telefon her"><br>
+                        <input type="email" id="email" name="email" placeholder="E-post her"><br>
+                        <textarea id="message" placeholder="skriv din melding her"></textarea><br><br>
+                        <input type="button" value="Send melding" class="submitBtn text-white" onclick="sendEmail()">
                     </form>                    
                 </div>
             </div>
         </section>
         <footer class="text-center"></footer>
-
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
         <script src="./js/script.js"></script>
+
+        <!-- send mail - now showing password - change to token - howto: https://mailtrap.io/blog/javascript-send-email/ -->
+        <script>
+            function sendEmail() {
+                Email.send({
+                    /* Host : "smtp.mailtrap.io", */
+
+                    Host : "smtp.elasticemail.com",
+                    Username : "t.ronning@gmail.com",
+                    Password : "8351D39A84C1F09008D9FBF3D1C84E6741C1",
+                    To : '7erjelapp@gmail.com',
+                    From: document.getElementById("email").value,
+                    Subject : "Melding fra nettsidene",
+                    Body:
+                            "Navn: " +
+                            document.getElementById('name').value +
+                            "<br> Epost: " +
+                            document.getElementById("email").value +
+                            "<br> Telefon: " +
+                            document.getElementById("tel").value +
+                            "<br> Melding: " +
+                            document.getElementById("message").value,1
+                }).then(
+                message => alert(message)
+                );
+                }
+        </script>
     </body>
 </html>
