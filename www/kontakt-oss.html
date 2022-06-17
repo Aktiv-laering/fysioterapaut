@@ -44,7 +44,7 @@
                         <input type="text" id="tel" name="tel" required placeholder="Telefon her"><br>
                         <input type="email" id="email" name="email" placeholder="E-post her"><br>
                         <textarea id="message" placeholder="skriv din melding her"></textarea><br><br>
-                        <input type="button" value="Send melding" class="submitBtn text-white" onclick="sendEmail()">
+                        <input type="button" value="Send melding" class="submitBtn text-white" onclick="sendEmail(), reset()">
                     </form>                    
                 </div>
             </div>
@@ -73,7 +73,7 @@
                             "<br> Telefon: " +
                             document.getElementById("tel").value +
                             "<br> Melding: " +
-                            document.getElementById("message").value,1
+                            document.getElementById("message").value,
                 }).then(
                 message => alert(message)
                 );
