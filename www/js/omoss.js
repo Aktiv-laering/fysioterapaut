@@ -16,11 +16,11 @@ const omossArray = {
         },
         {
             id: 2,
-            pictureUrl: "./img/thereseBG.png",
+            pictureUrl: "./img/Therese.jpg",
             imageAlt: "Terapeut-Therese",
             name: "Therese Johannesen",
             title: "Fysioterapeut",
-            tlf: "999 77 666",
+            tlf: "958 83 027",
             email: "therese@wjfysio.no",
             active: true,
         },
