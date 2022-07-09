@@ -61,7 +61,6 @@ a:visited {
     display: flex;
     flex-direction: column;
 }
-    
 
 .flex-wrap {
     flex-wrap: wrap;
@@ -141,7 +140,7 @@ nav {
 }
 
 .background-image {
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), var(--primary)), url("../img/temporaryHomeBG.jpg");
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), var(--primary)), url("../img/pexels-jonathan-borba-3076514.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -170,7 +169,6 @@ nav {
     max-width: 250px;
     padding: 30px;
     border-top: 3px solid var(--primary);
-
 }
 
 .herosection-content__flex img {
@@ -242,8 +240,8 @@ footer a {
     }
     /* d-flex-col_reverse for kontaktOSS mobilView */
     .d-flex-c__reverse {
-    display: flex;
-    flex-direction: column-reverse;
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     /* text-center__mobile for omOss */
